@@ -102,7 +102,7 @@
         }
     </style>
 </head>
-<body class="bg-antique-bg text-antique-cream min-h-screen flex flex-col selection:bg-antique-gold selection:text-antique-bg">
+<body class="bg-antique-bg text-antique-cream min-h-screen flex flex-col overflow-x-hidden selection:bg-antique-gold selection:text-antique-bg">
 
     <!-- Header / Navigation (Site Map Structure) -->
     <header class="border-b border-antique-border bg-antique-card/90 backdrop-blur sticky top-0 z-50">
@@ -183,11 +183,11 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <!-- Volume I -->
-            <div class="antique-border bg-antique-card p-8 md:p-10 rounded-lg flex flex-col justify-between relative group hover:border-antique-gold/50 transition-all">
+            <div class="antique-border bg-antique-card p-6 sm:p-8 md:p-10 rounded-lg flex flex-col justify-between relative group min-w-0 hover:border-antique-gold/50 transition-all">
                 <div>
-                    <div class="flex justify-between items-start mb-6">
-                        <span class="text-xs font-display tracking-widest bg-antique-border px-3 py-1 rounded text-antique-gold">Volume I</span>
-                        <span class="text-xs font-display tracking-widest text-antique-muted">196 Pages &bull; Paperback, Kindle &amp; PDF</span>
+                    <div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 mb-6">
+                        <span class="text-xs font-display tracking-widest bg-antique-gold text-antique-bg px-3 py-1 rounded font-bold">Volume I</span>
+                        <span class="text-[11px] md:text-xs font-display tracking-wider text-antique-muted">196 pages &middot; print, Kindle &amp; PDF</span>
                     </div>
                     <div class="text-center mb-6">
                         <img src="assets/cover-volume-1.jpg" alt="The 1582 Rheims: Matthew — Volume I" class="mx-auto h-56 md:h-64 w-auto rounded shadow-lg border border-antique-border">
@@ -204,10 +204,10 @@
                     </ul>
                 </div>
                 <div class="pt-4 border-t border-antique-border">
-                    <div class="flex items-center justify-between mb-4 gap-2">
-                        <span class="text-xs text-antique-muted uppercase font-display">Free PDF</span>
-                        <span class="text-xs text-antique-muted uppercase font-display">Paperback &pound;14.99</span>
-                        <span class="text-xs text-antique-muted uppercase font-display">Kindle &pound;4.99</span>
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
+                        <span class="text-[10px] md:text-xs text-antique-muted uppercase font-display tracking-wider">Free PDF</span>
+                        <span class="text-[10px] md:text-xs text-antique-muted uppercase font-display tracking-wider">Paperback &pound;14.99</span>
+                        <span class="text-[10px] md:text-xs text-antique-muted uppercase font-display tracking-wider">Kindle &pound;4.99</span>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-3">
                         <a href="#acquire" class="flex-1 text-center text-xs font-display font-bold tracking-widest border border-antique-border px-4 py-3 rounded hover:border-antique-gold transition-colors">Free PDF</a>
@@ -220,9 +220,9 @@
             <!-- Volume II -->
             <div class="antique-border bg-antique-card p-8 md:p-10 rounded-lg flex flex-col justify-between relative group hover:border-antique-gold/50 transition-all">
                 <div>
-                    <div class="flex justify-between items-start mb-6">
+                    <div class="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 mb-6">
                         <span class="text-xs font-display tracking-widest bg-antique-gold text-antique-bg px-3 py-1 rounded font-bold">Volume II</span>
-                        <span class="text-xs font-display tracking-widest text-antique-muted">121 Pages &bull; Paperback &amp; Kindle</span>
+                        <span class="text-[11px] md:text-xs font-display tracking-wider text-antique-muted">121 pages &middot; print &amp; Kindle</span>
                     </div>
                     <div class="text-center mb-6">
                         <img src="assets/cover-volume-2.jpg" alt="The 1582 Annotations: Matthew — Volume II" class="mx-auto h-56 md:h-64 w-auto rounded shadow-lg border border-antique-border">
@@ -239,13 +239,13 @@
                     </ul>
                 </div>
                 <div class="pt-4 border-t border-antique-border">
-                    <div class="flex items-center justify-between mb-4">
-                        <span class="text-xs text-antique-muted uppercase font-display">Paperback &pound;11.99</span>
-                        <span class="text-xs text-antique-muted uppercase font-display">Kindle &pound;6.99</span>
+                    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
+                        <span class="text-[10px] md:text-xs text-antique-muted uppercase font-display tracking-wider">Paperback &pound;11.99</span>
+                        <span class="text-[10px] md:text-xs text-antique-muted uppercase font-display tracking-wider">Kindle &pound;6.99</span>
                     </div>
                     <div class="flex flex-col sm:flex-row gap-3">
-                        <a href="#" data-amazon="vol2_paperback" data-pending="Volume II is being published now, at &pound;11.99 in paperback. The Amazon link goes live the day it is listed." class="flex-1 text-center text-xs font-display font-bold tracking-widest bg-antique-gold text-antique-bg px-4 py-3 rounded hover:bg-antique-goldHover transition-colors">Paperback on Amazon</a>
-                        <a href="#" data-amazon="vol2_kindle" data-pending="The Kindle edition is being published now, at &pound;6.99. The Amazon link goes live the day it is listed." class="flex-1 text-center text-xs font-display font-bold tracking-widest border border-antique-gold px-4 py-3 rounded hover:bg-antique-gold hover:text-antique-bg transition-colors">Kindle on Amazon</a>
+                        <a href="#" data-amazon="vol2_paperback" data-pending="Volume II is being published now, at &pound;11.99 in paperback. The Amazon link goes live the day it is listed." class="flex-1 text-center text-xs font-display font-bold tracking-widest bg-antique-gold text-antique-bg px-4 py-3 rounded hover:bg-antique-goldHover transition-colors">Paperback</a>
+                        <a href="#" data-amazon="vol2_kindle" data-pending="The Kindle edition is being published now, at &pound;6.99. The Amazon link goes live the day it is listed." class="flex-1 text-center text-xs font-display font-bold tracking-widest border border-antique-gold px-4 py-3 rounded hover:bg-antique-gold hover:text-antique-bg transition-colors">Kindle</a>
                     </div>
                 </div>
             </div>
