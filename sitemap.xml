@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://1582rheims.com/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -19,6 +19,21 @@
   <url>
     <loc>https://1582rheims.com/assets/the-1582-rheims-luke.pdf</loc>
     <lastmod>2026-11-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://1582rheims.com/assets/the-1582-rheims-acts.pdf</loc>
+    <lastmod>2026-11-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://1582rheims.com/assets/the-1582-rheims-romans.pdf</loc>
+    <lastmod>2026-11-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://1582rheims.com/assets/the-1582-rheims-revelation.pdf</loc>
+    <lastmod>2026-11-18</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>
